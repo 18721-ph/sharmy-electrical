@@ -23,7 +23,7 @@ On Windows PowerShell with script execution disabled, use `npm.cmd`.
 
 Verified name, phone, email, and three service categories come from the screenshots supplied by the user. All business data lives in `src/data/company.ts`. See `CONTENT-INVENTORY.md` for sources and missing details.
 
-The original SVG illustrations are explicitly labeled concept studies, not completed projects. Replace them with actual project photography when available, including descriptive alt text, dimensions, responsive WebP/AVIF sources, and lazy loading below the fold. No fabricated testimonials, certifications, addresses, or statistics are included.
+The version 2 visuals use detailed AI-generated architectural, electrical, and mechanical concept imagery. Every image is labeled as an AI concept, not completed company work. Responsive WebP variants, descriptive alt text, explicit dimensions, hero fetch priority, and lazy loading below the fold are implemented. Originals and optimized files are in `public/images/`; the full generation prompts and provenance are in `IMAGE-PROMPTS.md`. No fabricated testimonials, certifications, addresses, or statistics are included.
 
 The accessible enquiry form validates required fields, prepares a message for the verified email address, and offers a text download. The visitor must send it from their email app; the website does not claim backend delivery. Contact details are not persisted by the site. WhatsApp is omitted until confirmed.
 

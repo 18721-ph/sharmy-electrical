@@ -21,9 +21,9 @@ export const services = [
 ];
 // No project photographs or completed projects have been supplied. These are explicitly labeled layout previews.
 export const projects = [
-  { id: '01', title: 'Spaces, thoughtfully connected.', subtitle: 'Architectural concept · project photographs to follow', variant: 'building' },
-  { id: '02', title: 'Precision in the details.', subtitle: 'Technical illustration · not completed work', variant: 'circuit' },
-  { id: '03', title: 'Every connection considered.', subtitle: 'Concept drawing · not completed work', variant: 'plan' },
+  { id: '01', title: 'Spaces, thoughtfully connected.', subtitle: 'AI architectural concept · not completed work', variant: 'building' },
+  { id: '02', title: 'Precision in the details.', subtitle: 'AI electrical study · not completed work', variant: 'circuit' },
+  { id: '03', title: 'Every connection considered.', subtitle: 'AI materials study · not completed work', variant: 'plan' },
 ];
 // Enquiry preparation guidance; not a claim about a documented operating process.
 export const process = [

@@ -4,4 +4,5 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import { CanonicalUrl } from './components/Seo';
 import './styles.css';
+import './visuals.css';
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><BrowserRouter><CanonicalUrl/><App /></BrowserRouter></React.StrictMode>);

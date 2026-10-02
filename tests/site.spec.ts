@@ -70,7 +70,17 @@ test('capture desktop and mobile homepage previews', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto('/');
   await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.locator('.concept-art img').evaluateAll(async elements => {
+    await Promise.all(elements.map(async element => {
+      const image = element as HTMLImageElement;
+      image.loading = 'eager';
+      await image.decode();
+      if (!image.naturalWidth) throw new Error(`Image failed to load: ${image.src}`);
+    }));
+  });
   await page.screenshot({ path: 'test-results/home-desktop.png', fullPage: true });
+  await page.screenshot({ path: 'test-results/hero-desktop.png' });
   await page.setViewportSize({ width: 375, height: 812 });
   await page.screenshot({ path: 'test-results/home-mobile.png', fullPage: true });
+  await page.screenshot({ path: 'test-results/hero-mobile.png' });
 });

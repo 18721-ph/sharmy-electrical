@@ -28,3 +28,7 @@ WhatsApp, physical location, coverage, hours, detailed service scope, company hi
 
 ## Before publication
 Supply original project images, location/coverage, production URL confirmation, and approved operating process. Service detail pages currently provide enquiry guidance rather than asserting unverified technical capabilities. Set VITE_SITE_URL to the approved deployed origin to enable canonical URLs. Remove noindex after owner content review. The contact form intentionally uses the visitor's email app; a backend is optional future work. No WhatsApp link is included because a telephone number alone does not verify a WhatsApp account.
+
+## Visual revision
+
+At the user's request for more detailed, creative images, the simple SVG diagrams were replaced in the rendered site by three AI-generated concept studies: a detailed illuminated architectural cutaway, an electrical assembly, and a copper/steel mechanical study. These are explicitly labeled as AI concepts throughout and do not establish new business services or completed projects. Source prompts and asset paths are recorded in `IMAGE-PROMPTS.md`. The original SVG component is retained as source history.
