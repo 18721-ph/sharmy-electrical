@@ -8,7 +8,7 @@
 .hero-grid{grid-template-columns:1fr 1.06fr}
 .hero-art{min-height:610px}
 .hero-art>.concept-art{height:100%;width:100%}
-.hero-art .concept-art-detail{bottom:65px}
+.hero-art .concept-art-detail{bottom:22px}
 .hero-art .concept-art-label{top:22px;left:22px}
 .hero-art .art-caption{z-index:3;background:#192e30f5;border-top:1px solid #d1ad7840}
 .hero-copy{align-self:center}

@@ -46,7 +46,6 @@ export function ConceptArt({ variant = 'building', className = '', priority = fa
         decoding="async"
         alt={study.alt}
       />
-      <span className="concept-art-label"><span className="concept-art-dot"/>AI CONCEPT / {study.number}</span>
       <span className="concept-art-detail">{study.label}</span>
     </div>
   );
