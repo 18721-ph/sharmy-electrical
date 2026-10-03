@@ -1,0 +1,20 @@
+.error-page{background:var(--ink);color:var(--paper);padding-top:85px}
+.error-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;padding-bottom:85px}
+.error-copy .eyebrow{color:var(--accent)}
+.error-copy h1{font-size:clamp(52px,6vw,86px);font-weight:400;line-height:1.05}
+.error-copy>p:not(.eyebrow){max-width:420px;color:#aebdb6;font-size:14px;margin-top:26px}
+.error-actions{display:flex;align-items:center;flex-wrap:wrap;gap:26px;margin-top:32px}
+.error-contact-link{display:inline-flex;align-items:center;gap:10px;font-size:12px}
+.error-contact-link:hover,.error-help a:hover,.error-bottom a:hover{color:var(--accent)}
+.error-help{display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px;margin-top:45px;padding-top:24px;border-top:1px solid #344642;font-size:11px;color:#aebdb6}
+.error-help a{display:inline-flex;align-items:center;gap:8px;color:var(--paper)}
+.error-art{border:1px solid #3b4c45;color:var(--accent);position:relative;min-width:0}
+.error-art-heading{display:flex;justify-content:space-between;gap:16px;padding:22px 24px;border-bottom:1px solid #3b4c45;font-size:9px;letter-spacing:.15em;color:#b8c4ba}
+.error-art-heading>span{color:var(--accent)}
+.error-circuit{display:block;width:100%;height:auto}
+.error-art-caption{display:flex;align-items:center;gap:10px;padding:20px 24px;border-top:1px solid #3b4c45;font-size:10px;color:#b8c4ba}
+.error-status-dot{width:5px;height:5px;background:var(--accent);border-radius:50%}
+.error-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;padding-block:24px;border-top:1px solid #344642;font-size:11px;color:#aebdb6}
+.error-bottom a{display:inline-flex;align-items:center;gap:12px;color:var(--paper)}
+@media(max-width:900px){.error-grid{gap:35px}.error-actions{gap:20px}.error-art-heading{padding:18px 16px;font-size:8px}.error-art-caption{padding:18px 16px}}
+@media(max-width:600px){.error-page{padding-top:50px}.error-grid{grid-template-columns:1fr;padding-bottom:45px;gap:38px}.error-copy h1{font-size:64px}.error-copy>p:not(.eyebrow){font-size:13px}.error-help{margin-top:30px}.error-circuit{max-height:280px}.error-bottom{font-size:10px}}
