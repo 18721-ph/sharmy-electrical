@@ -34,3 +34,5 @@ Configure the host to rewrite application routes to `index.html` so direct navig
 Set `VITE_SITE_URL` to the approved deployed origin for canonical URLs. Review company copy and supply missing project photography before removing the `noindex,nofollow` meta tag in `index.html`. The supplied source domain has not been assumed to be the deployment destination.
 
 Design uses system font fallbacks so it works without third-party font requests. Motion honors reduced-motion preferences. The mobile navigation supports Escape, and project dialogs use native modal keyboard containment and return focus to their triggers.
+
+October 2026 upgrade: see UPGRADE-NOTES.md for the service shortlist, revised enquiry form, design changes, and content limitations. Two additional enquiry tests are in tests/enquiry.spec.ts.

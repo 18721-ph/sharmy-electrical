@@ -38,7 +38,7 @@ export function ConceptArt({ variant = 'building', className = '', priority = fa
       <img
         src={`/images/${study.file}-1200.webp`}
         srcSet={`/images/${study.file}-640.webp 640w, /images/${study.file}-1200.webp 1200w`}
-        sizes="(max-width: 560px) calc(100vw - 40px), (max-width: 800px) 50vw, 700px"
+        sizes="(max-width: 700px) calc(100vw - 40px), (max-width: 800px) 50vw, 700px"
         width={study.width}
         height={study.height}
         loading={priority ? 'eager' : 'lazy'}
@@ -46,6 +46,7 @@ export function ConceptArt({ variant = 'building', className = '', priority = fa
         decoding="async"
         alt={study.alt}
       />
+      <span className="concept-art-label">AI CONCEPT · NOT COMPLETED WORK</span>
       <span className="concept-art-detail">{study.label}</span>
     </div>
   );
